@@ -36,8 +36,12 @@
    ```bash
    git clone https://github.com/Malik-Talha/study-assistant.git
    cd study-assistant
-
-2. Run the Application:
+2. **Add APIs in .env file**:
+- Rename the .env.example to .env
+- Must provide OpenAI API Key and Tavily API Key in the .env
+- You can provide LangSmith API Key and Project name; if not then you need to comment out the lines 18-20 in the chains.py
+  
+3. Run the Application:
 
    ```bash
    python my_graph.py
